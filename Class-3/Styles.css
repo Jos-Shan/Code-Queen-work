@@ -1,0 +1,19 @@
+.header {
+    background-color: gray;
+}
+.intro {
+    background-color: beige;
+    width: 500px;
+    height: 200px;
+}
+.intro-text {
+    color: rgb(119, 0, 255);
+}
+h4 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#summary-report {
+    width: 500px;
+}
