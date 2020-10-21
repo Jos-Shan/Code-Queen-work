@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(174, 203, 228);
+    font-family: 'Chilanka', cursive;
+  }
+  
+  body > div {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(236, 221, 221);
+    padding: 10px;
+  }
+  
+  p {
+    font-family: 'David Libre', serif;
+    font-size: 20px;
+  }
+  
+  .profile-image {
+    border-radius: 300px 300px;
+  }
+  .likes {
+      text-align: justify;
+  }
+  .follow {
+      text-align: justify;
+  }

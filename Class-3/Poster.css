@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+    color: brown;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    border-left: 30px;
+    border-right: 30px;
+}
+h1:hover, h2:hover, h3:hover {
+    background-color: yellow;
+}
+
