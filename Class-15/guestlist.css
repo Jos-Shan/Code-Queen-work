@@ -1,0 +1,29 @@
+body {
+    font-family: helvetica;    
+}
+
+span {
+    margin-left: 5px;    
+}
+
+button {
+    background-color: crimson; 
+    border-radius: 15px;  
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+h2 {
+    color: mediumvioletred;    
+}
+
+h4 {
+    color: teal;    
+}
+
+p {
+    color: black;
+    font-weight: bold;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading Scale System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="text-align: center;">
+    <h1>Grade Scale</h1>
+    <br> 
+    <input type="text" id="input" class="score" placeholder="Enter numerical result">
+    <button class="input">Show my Grade</button>
+    <button class="remove">Reset</button>
+    <hr>
+    <span id="output"></span>
+    <div class="display"></div>
+
+    <script>
+        $(".remove").click(function(){
+            $("#input").val("")
+            $(".display").text("")
+        });
+
+        $(".input").click(function(){
+            let result = $(".score").val();
+
+if (result >=80 && result <=100) {
+    $(".display").text("'A'. Excellent!");
+} 
+else if (result >=70 && result <=79) {
+    $(".display").text("'B'. Great!");
+} 
+else if (result >=60 && result <=69){
+    $(".display").text("'C'. Aim higher!");
+}
+else if (result >=50 && result <=59) {
+    $(".display").text("'D'. Aim higher!");
+}
+else if (result <=49 && result >=0) {
+    $(".display").text("'F'. Failed!");
+}
+else {
+    window.alert("Inavlid result.");
+}
+
+        });
+    </script>
+
+    </body>
+</html>
