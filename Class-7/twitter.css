@@ -1,0 +1,73 @@
+:root {
+    --main-color: #1da1f2;
+    --dark-color: #14171a;
+    --footer-link-color: #aab8c2;
+    --footer-top-color: #e6ecf0;
+}
+
+*,*::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, h1, h2, h3, li, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 85vh 15vh;
+}
+
+.container .left-box {
+    background-color: var(--main-color);
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .left-box ul li {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 50px 0;
+    font-weight: bold;
+    color: white;
+}
+.container .left-box ul li .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container .right-box {
+    background-color: white;
+    grid-column: 2 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .right-box .card {
+    min-width: 300px;
+    padding: 0 60px;
+}
+.container .right-box .card .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .bottom-box {
+    background-color: rgb(99, 17, 99);
+    grid-column: 1 / -1;
+}
+
+
+button.btn {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
